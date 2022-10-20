@@ -5,15 +5,11 @@ package com.danigr.pccomponentes;
  */
 public class PlacaBase {
 
-    /**
-     * Atributos, propiedades, variables, estado
-     */
     private Integer id;
     private String marca;
     private String fabricante;
-    /**
-     * Métodos, funciones, comportamiento
-     */
+    private Integer ranurasram;
+
     public Integer getId() {
         return id;
     }
@@ -36,5 +32,13 @@ public class PlacaBase {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public Integer getRanurasram() {
+        return ranurasram;
+    }
+
+    public void setRanurasram(Integer ranurasram) {
+        this.ranurasram = ranurasram;
     }
 }
