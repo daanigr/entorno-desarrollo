@@ -5,6 +5,8 @@ public class MemoriaRAM {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String memoriaInterna;
+    private String tipo;
 
 
     public Integer getId() {
@@ -29,5 +31,21 @@ public class MemoriaRAM {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getMemoriaInterna() {
+        return memoriaInterna;
+    }
+
+    public void setMemoriaInterna(String memoriaInterna) {
+        this.memoriaInterna = memoriaInterna;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }

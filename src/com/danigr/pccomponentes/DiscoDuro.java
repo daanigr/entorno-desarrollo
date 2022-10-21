@@ -5,6 +5,8 @@ public class DiscoDuro {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String tipo;
+    private String capacidad;
 
 
     public Integer getId() {
@@ -29,5 +31,21 @@ public class DiscoDuro {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getCapacidad() {
+        return capacidad;
+    }
+
+    public void setCapacidad(String capacidad) {
+        this.capacidad = capacidad;
     }
 }

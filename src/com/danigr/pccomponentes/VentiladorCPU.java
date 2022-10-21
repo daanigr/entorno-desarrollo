@@ -5,6 +5,7 @@ public class VentiladorCPU {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String tamano;
 
 
     public Integer getId() {
@@ -29,5 +30,13 @@ public class VentiladorCPU {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getTamano() {
+        return tamano;
+    }
+
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
     }
 }

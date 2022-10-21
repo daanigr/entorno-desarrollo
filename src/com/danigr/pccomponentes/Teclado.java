@@ -5,6 +5,7 @@ public class Teclado {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String tipo;
 
 
     public Integer getId() {
@@ -29,5 +30,13 @@ public class Teclado {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }

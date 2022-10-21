@@ -5,6 +5,9 @@ public class Monitor {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String velocidadMaxRefresco;
+    private String tamano;
+    private String resolucion;
 
 
     public Integer getId() {
@@ -29,5 +32,29 @@ public class Monitor {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getVelocidadMaxRefresco() {
+        return velocidadMaxRefresco;
+    }
+
+    public void setVelocidadMaxRefresco(String velocidadMaxRefresco) {
+        this.velocidadMaxRefresco = velocidadMaxRefresco;
+    }
+
+    public String getTamano() {
+        return tamano;
+    }
+
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
+    }
+
+    public String getResolucion() {
+        return resolucion;
+    }
+
+    public void setResolucion(String resolucion) {
+        this.resolucion = resolucion;
     }
 }

@@ -5,6 +5,7 @@ public class GrabadoraDVD {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String dimensiones;
 
 
     public Integer getId() {
@@ -29,5 +30,13 @@ public class GrabadoraDVD {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getDimensiones() {
+        return dimensiones;
+    }
+
+    public void setDimensiones(String dimensiones) {
+        this.dimensiones = dimensiones;
     }
 }

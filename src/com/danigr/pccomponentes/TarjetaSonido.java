@@ -5,6 +5,8 @@ public class TarjetaSonido {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String memoria;
+    private String frecuenciaMax;
 
 
     public Integer getId() {
@@ -29,5 +31,21 @@ public class TarjetaSonido {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getMemoria() {
+        return memoria;
+    }
+
+    public void setMemoria(String memoria) {
+        this.memoria = memoria;
+    }
+
+    public String getFrecuenciaMax() {
+        return frecuenciaMax;
+    }
+
+    public void setFrecuenciaMax(String frecuenciaMax) {
+        this.frecuenciaMax = frecuenciaMax;
     }
 }

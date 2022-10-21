@@ -5,6 +5,7 @@ public class FuenteDeAlimentacion {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String potencia;
 
 
     public Integer getId() {
@@ -29,5 +30,13 @@ public class FuenteDeAlimentacion {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getPotencia() {
+        return potencia;
+    }
+
+    public void setPotencia(String potencia) {
+        this.potencia = potencia;
     }
 }

@@ -4,6 +4,7 @@ public class TarjetaGrafica {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String memoria;
 
 
     public Integer getId() {
@@ -28,5 +29,13 @@ public class TarjetaGrafica {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public String getMemoria() {
+        return memoria;
+    }
+
+    public void setMemoria(String memoria) {
+        this.memoria = memoria;
     }
 }
