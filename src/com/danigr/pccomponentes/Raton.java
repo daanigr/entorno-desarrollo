@@ -5,9 +5,9 @@ public class Raton {
     private Integer id;
     private String marca;
     private String fabricante;
-    private Integer botones;
+    private String botones;
     private String peso;
-    private Integer dpi;
+    private String dpi;
 
 
     public Integer getId() {
@@ -34,11 +34,11 @@ public class Raton {
         this.fabricante = fabricante;
     }
 
-    public Integer getBotones() {
+    public String getBotones() {
         return botones;
     }
 
-    public void setBotones(Integer botones) {
+    public void setBotones(String botones) {
         this.botones = botones;
     }
 
@@ -50,11 +50,11 @@ public class Raton {
         this.peso = peso;
     }
 
-    public Integer getDpi() {
+    public String getDpi() {
         return dpi;
     }
 
-    public void setDpi(Integer dpi) {
+    public void setDpi(String dpi) {
         this.dpi = dpi;
     }
 }
