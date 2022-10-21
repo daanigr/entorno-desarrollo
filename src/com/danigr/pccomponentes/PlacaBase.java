@@ -1,14 +1,12 @@
 package com.danigr.pccomponentes;
 
-/**
- * Clase PlacaBase
- */
 public class PlacaBase {
 
     private Integer id;
     private String marca;
     private String fabricante;
     private Integer ranurasram;
+
 
     public Integer getId() {
         return id;

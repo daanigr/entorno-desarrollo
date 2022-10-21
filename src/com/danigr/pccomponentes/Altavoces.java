@@ -1,6 +1,7 @@
 package com.danigr.pccomponentes;
 
-public class TarjetaGrafica {
+public class Altavoces {
+
     private Integer id;
     private String marca;
     private String fabricante;
@@ -30,3 +31,4 @@ public class TarjetaGrafica {
         this.fabricante = fabricante;
     }
 }
+

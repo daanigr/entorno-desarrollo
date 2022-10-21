@@ -1,6 +1,7 @@
 package com.danigr.pccomponentes;
 
-public class TarjetaGrafica {
+public class CajaPC {
+
     private Integer id;
     private String marca;
     private String fabricante;
